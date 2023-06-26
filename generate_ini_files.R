@@ -11,15 +11,15 @@ library(lazytrade)
 #path to user repo:
 path_dss <- normalizePath(Sys.getenv('PATH_DSS_Repo'), winslash = '/')
 
-path_ini <- file.path(path_dss, 'AutoLaunchMT4')
+path_ini <- file.path(path_dss, 'AutoLaunchMT4' )
 
 # terminal 1
 # launch MT4 terminal with parameters
 # customize to suit your needs:
 write_ini_file(mt4_Profile = "Default",
-               mt4_Login = "12345678",
-               mt4_Password = "password",
-               mt4_Server = "BrokerServerName",
+               mt4_Login = "22620439",
+               mt4_Password = "2UtP47h1",
+               mt4_Server = "Ava - Demo",
                dss_inifilepath = path_ini,
                dss_inifilename = "prod_T1.ini",
                dss_mode = "prod")
@@ -28,9 +28,9 @@ write_ini_file(mt4_Profile = "Default",
 # launch MT4 terminal with parameters
 # customize to suit your needs:
 write_ini_file(mt4_Profile = "Default",
-               mt4_Login = "12345678",
-               mt4_Password = "password",
-               mt4_Server = "BrokerServerName",
+               mt4_Login = "22620439",
+               mt4_Password = "2UtP47h1",
+               mt4_Server = "Ava - Demo",
                dss_inifilepath = path_ini,
                dss_inifilename = "prod_T3.ini",
                dss_mode = "prod")
